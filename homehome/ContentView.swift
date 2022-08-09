@@ -1,0 +1,32 @@
+//
+//  ContentView.swift
+//  homehome
+//
+//  Created by Evangeline Jing on 6/5/22.
+//
+
+import SwiftUI
+import Firebase
+//test
+
+struct ContentView: View {
+    
+    @EnvironmentObject var viewModel: AppViewModel
+    
+    var body: some View {
+        NavigationView{
+        if viewModel.signedIn == true {
+                test_tab()
+            } else{
+                login()
+            }
+          
+        }
+        .onAppear{
+            viewModel.signedIn = viewModel.isSignedIn
+        }
+    }
+}
+
+
+
