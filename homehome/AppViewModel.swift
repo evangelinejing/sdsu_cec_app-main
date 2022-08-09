@@ -3,7 +3,6 @@
 //  homehome
 //
 //  Created by Lars.
-//
 
 import SwiftUI
 import Firebase
