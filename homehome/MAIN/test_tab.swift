@@ -12,6 +12,7 @@ import SwiftUICharts
 
 // test github again ughhh 
 // test Lars
+// test again
 
 
 struct test_tab: View {
@@ -80,6 +81,7 @@ struct HomeView: View {
                         Circle()
                             .scale(1.4)
                                 .foregroundColor(.black.opacity(0.05)).offset(y: +700)
+                        //
                         
                     
                     VStack(spacing:20){
