@@ -16,6 +16,10 @@
 		BB15FAF62875EBE800577C08 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BB15FAF52875EBE800577C08 /* SwiftUICharts */; };
 		BB15FAFC2875EF7200577C08 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BB15FAFB2875EF7200577C08 /* SwiftUICharts */; };
 		BB472923286CA8B0002DBD83 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB472922286CA8B0002DBD83 /* login.swift */; };
+		BB5E2D0C28A366C2006908C6 /* HPData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D0B28A366C2006908C6 /* HPData.swift */; };
+		BB5E2D0E28A366D3006908C6 /* HPListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D0D28A366D3006908C6 /* HPListView.swift */; };
+		BB5E2D1028A36B06006908C6 /* HPDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D0F28A36B06006908C6 /* HPDetail.swift */; };
+		BB5E2D1228A37046006908C6 /* test_oure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D1128A37046006908C6 /* test_oure.swift */; };
 		BB75D314284D646A00C83EB9 /* homehomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75D313284D646A00C83EB9 /* homehomeApp.swift */; };
 		BB75D316284D646A00C83EB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75D315284D646A00C83EB9 /* ContentView.swift */; };
 		BB75D318284D646C00C83EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB75D317284D646C00C83EB9 /* Assets.xcassets */; };
@@ -60,6 +64,10 @@
 		512833142891D1D400939728 /* ReadViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewModel.swift; sourceTree = "<group>"; };
 		512F58272893559E007EFF41 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		BB472922286CA8B0002DBD83 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		BB5E2D0B28A366C2006908C6 /* HPData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPData.swift; sourceTree = "<group>"; };
+		BB5E2D0D28A366D3006908C6 /* HPListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPListView.swift; sourceTree = "<group>"; };
+		BB5E2D0F28A36B06006908C6 /* HPDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPDetail.swift; sourceTree = "<group>"; };
+		BB5E2D1128A37046006908C6 /* test_oure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_oure.swift; sourceTree = "<group>"; };
 		BB75D310284D646A00C83EB9 /* homehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB75D313284D646A00C83EB9 /* homehomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homehomeApp.swift; sourceTree = "<group>"; };
 		BB75D315284D646A00C83EB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,6 +169,10 @@
 			children = (
 				BBF1190D2891BB7E009A1142 /* test_tab.swift */,
 				BBAEE56A28A300A300DA388E /* HistoryDataList.swift */,
+				BB5E2D1128A37046006908C6 /* test_oure.swift */,
+				BB5E2D0D28A366D3006908C6 /* HPListView.swift */,
+				BB5E2D0F28A36B06006908C6 /* HPDetail.swift */,
+				BB5E2D0B28A366C2006908C6 /* HPData.swift */,
 			);
 			path = MAIN;
 			sourceTree = "<group>";
@@ -278,15 +290,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5E2D1228A37046006908C6 /* test_oure.swift in Sources */,
 				512833112891D1C400939728 /* ObjectDemo.swift in Sources */,
 				BB75D316284D646A00C83EB9 /* ContentView.swift in Sources */,
 				BB75D314284D646A00C83EB9 /* homehomeApp.swift in Sources */,
+				BB5E2D0C28A366C2006908C6 /* HPData.swift in Sources */,
 				BBF1190E2891BB7E009A1142 /* test_tab.swift in Sources */,
 				512F58282893559E007EFF41 /* AppViewModel.swift in Sources */,
 				512833132891D1D100939728 /* ReadView.swift in Sources */,
 				BBAEE56B28A300A400DA388E /* HistoryDataList.swift in Sources */,
+				BB5E2D1028A36B06006908C6 /* HPDetail.swift in Sources */,
 				BB472923286CA8B0002DBD83 /* login.swift in Sources */,
 				512833152891D1D400939728 /* ReadViewModel.swift in Sources */,
+				BB5E2D0E28A366D3006908C6 /* HPListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
