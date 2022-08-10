@@ -260,7 +260,8 @@ struct AnalysisView: View {
     
     struct ProfileView: View {
         
-        @EnvironmentObject var viewModel: AppViewModel
+        @EnvironmentObject var appView: AppViewModel
+        @EnvironmentObject var fbase: ReadViewModel
         
         var body: some View{
             
@@ -277,16 +278,28 @@ struct AnalysisView: View {
                 
                 VStack {
                     
-                    
                     Button (action: {
-                        viewModel.signOut()
+                        appView.signOut()
                     }, label:{
                         Text("Sign Out")
                             .foregroundColor(Color(hue: 0.9, saturation: 0.626, brightness: 0.918))
                             .frame(width:300, height: 50)
                             .background()
                         .cornerRadius(10)})
+                  //  Text(String(fbase.checkForAdmin()))
+                    if fbase.helpvar{
+                        Button (action: {
+                            fbase.emergencyStop()
+                        }, label:{
+                            Text("EmergencyStop")
+                                .foregroundColor(.black)
+                                .frame(width:300, height: 50)
+                                .background(Color.red)
+                            .cornerRadius(10)})
+                        
+                    }
                 }
+                .onAppear(perform: fbase.checkForAdmin)
             }
             
         }

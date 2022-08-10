@@ -25,8 +25,10 @@ struct homehomeApp: App {
     var body: some Scene {
         WindowGroup {
                 let viewModel = AppViewModel()
+                let fbase = ReadViewModel()
                 ContentView()
                     .environmentObject(viewModel)
+                    .environmentObject(fbase)
        
         }
     }

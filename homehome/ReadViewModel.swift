@@ -8,12 +8,17 @@
 import Foundation
 import FirebaseDatabase
 import FirebaseDatabaseSwift
+import FirebaseAuth
 
 class ReadViewModel: ObservableObject{
-    
+    @Published
     var ref = Database.database().reference()
     @Published
     var value: String? = nil
+    
+    @Published var helpvar: Bool = false
+    
+    
     
     @Published
     var object: ObjectDemo? = nil
@@ -29,6 +34,7 @@ class ReadViewModel: ObservableObject{
             self.value = snapshot.value as? String ?? "Load failed"
         }
     }
+    
     func readObject(){
         ref.child("Object")
             .observe(.value) { snapshot in
@@ -39,6 +45,28 @@ class ReadViewModel: ObservableObject{
                 }
             }
     }
+                                              
+    func emergencyStop(){
+        self.ref.child("EmergencyStop").setValue(true)
+    }
+    
+    func checkForAdmin() {
+        
+        guard let uid = Auth.auth().currentUser?.uid else {
+            return
+ 
+        }
+
+        self.ref.child("admin").observe(.value){ (snapshot) in
+            if snapshot.hasChild(uid){
+                self.helpvar = true
+            }else{
+                self.helpvar = false
+            }
+        }
+    }
 }
+
+
 
  

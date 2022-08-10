@@ -12,6 +12,7 @@ import Firebase
 struct ContentView: View {
     
     @EnvironmentObject var viewModel: AppViewModel
+    @EnvironmentObject var fbase: ReadViewModel
     
     var body: some View {
         NavigationView{

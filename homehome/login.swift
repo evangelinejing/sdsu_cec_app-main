@@ -14,7 +14,7 @@ struct login: View {
     @State private var email = ""
     @State private var password = ""
     @EnvironmentObject var viewModel: AppViewModel
-    
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -30,7 +30,7 @@ struct login: View {
                 VStack {
                     Text ("Login")
                         .foregroundColor(Color(hue: 0.9, saturation: 0.078, brightness: 0.959)).font(.system(size:40,weight:.bold,design:.rounded))
-                    
+
                     TextField ("Email", text : $email)
                         .padding()
                         .frame(width: 300, height: 50)
@@ -48,9 +48,9 @@ struct login: View {
                         guard !email.isEmpty, !password.isEmpty else{
                             return
                         }
-                        
+                        viewModel.loginStarted = true
+                        viewModel.falseLogin = false
                         viewModel.signIn(email: email, password: password)
-                        viewModel.falseLogin = true
                         
                     }, label:  {
                         Text("Login")
@@ -60,14 +60,17 @@ struct login: View {
                             .cornerRadius(10)
                         
                     })
+                    if viewModel.loginStarted{
+                        Text("waiting for server response...")
+                            .foregroundColor(.white)
+                    }
                     if viewModel.falseLogin{
                         Text("Login data incorrect.")
                             .foregroundColor(.red)
                             .padding()
                             .font(.title)
                     }
-                }
-                
+                }                
                 
                 //NavigationLink(destination: ui_1(), isActive: $showingLoginScreen){
                 EmptyView()
