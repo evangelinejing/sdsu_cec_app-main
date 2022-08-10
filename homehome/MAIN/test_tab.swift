@@ -10,10 +10,6 @@ import SwiftUI
 
 import SwiftUICharts
 
-// test github again ughhh 
-// test Lars
-// test ev
-
 struct test_tab: View {
     
     var body: some View {
