@@ -19,6 +19,7 @@
 		BB15FAF62875EBE800577C08 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BB15FAF52875EBE800577C08 /* SwiftUICharts */; };
 		BB15FAFC2875EF7200577C08 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BB15FAFB2875EF7200577C08 /* SwiftUICharts */; };
 		BB472923286CA8B0002DBD83 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB472922286CA8B0002DBD83 /* login.swift */; };
+		BB55C09328A45D9F00647F5D /* UserControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB55C09228A45D9F00647F5D /* UserControl.swift */; };
 		BB5E2D0C28A366C2006908C6 /* HPData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D0B28A366C2006908C6 /* HPData.swift */; };
 		BB5E2D0E28A366D3006908C6 /* HPListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D0D28A366D3006908C6 /* HPListView.swift */; };
 		BB5E2D1028A36B06006908C6 /* HPDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D0F28A36B06006908C6 /* HPDetail.swift */; };
@@ -67,6 +68,7 @@
 		512833142891D1D400939728 /* ReadViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewModel.swift; sourceTree = "<group>"; };
 		512F58272893559E007EFF41 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		BB472922286CA8B0002DBD83 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		BB55C09228A45D9F00647F5D /* UserControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserControl.swift; sourceTree = "<group>"; };
 		BB5E2D0B28A366C2006908C6 /* HPData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPData.swift; sourceTree = "<group>"; };
 		BB5E2D0D28A366D3006908C6 /* HPListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPListView.swift; sourceTree = "<group>"; };
 		BB5E2D0F28A36B06006908C6 /* HPDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPDetail.swift; sourceTree = "<group>"; };
@@ -128,6 +130,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB55C09128A45D8800647F5D /* UserControl */ = {
+			isa = PBXGroup;
+			children = (
+				BB55C09228A45D9F00647F5D /* UserControl.swift */,
+			);
+			path = UserControl;
+			sourceTree = "<group>";
+		};
 		BB75D307284D646A00C83EB9 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +157,7 @@
 		BB75D312284D646A00C83EB9 /* homehome */ = {
 			isa = PBXGroup;
 			children = (
+				BB55C09128A45D8800647F5D /* UserControl */,
 				BBF1190C2891BB64009A1142 /* MAIN */,
 				BB75D313284D646A00C83EB9 /* homehomeApp.swift */,
 				512F58272893559E007EFF41 /* AppViewModel.swift */,
@@ -300,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB55C09328A45D9F00647F5D /* UserControl.swift in Sources */,
 				BB5E2D1228A37046006908C6 /* test_oure.swift in Sources */,
 				512833112891D1C400939728 /* ObjectDemo.swift in Sources */,
 				BB75D316284D646A00C83EB9 /* ContentView.swift in Sources */,
