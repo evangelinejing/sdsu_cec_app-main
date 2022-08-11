@@ -108,6 +108,7 @@ struct login: View {
 struct login_Previews: PreviewProvider {
     static var previews: some View {
         login()
+            .environmentObject(AppViewModel())
     }
 }
 

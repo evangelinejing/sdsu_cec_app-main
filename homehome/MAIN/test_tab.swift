@@ -45,6 +45,8 @@ struct test_tab: View {
 struct test_tab_Previews: PreviewProvider {
     static var previews: some View {
         test_tab()
+            .environmentObject(ReadViewModel())
+            .environmentObject(AppViewModel())
     }
 }
 
