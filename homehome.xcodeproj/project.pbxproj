@@ -159,8 +159,9 @@
 		BB75D312284D646A00C83EB9 /* homehome */ = {
 			isa = PBXGroup;
 			children = (
+				BBF1190D2891BB7E009A1142 /* test_tab.swift */,
 				BB55C09128A45D8800647F5D /* UserControl */,
-				BBF1190C2891BB64009A1142 /* MAIN */,
+				BBF1190C2891BB64009A1142 /* HomePage */,
 				BB75D313284D646A00C83EB9 /* homehomeApp.swift */,
 				512F58272893559E007EFF41 /* AppViewModel.swift */,
 				512833122891D1D100939728 /* ReadView.swift */,
@@ -183,10 +184,9 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BBF1190C2891BB64009A1142 /* MAIN */ = {
+		BBF1190C2891BB64009A1142 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				BBF1190D2891BB7E009A1142 /* test_tab.swift */,
 				BBAEE56A28A300A300DA388E /* HistoryDataList.swift */,
 				BB5E2D1128A37046006908C6 /* test_oure.swift */,
 				BB5E2D0D28A366D3006908C6 /* HPListView.swift */,
@@ -194,7 +194,7 @@
 				BB27556F28A5BCB400BEA605 /* HPBack.swift */,
 				BB5E2D0B28A366C2006908C6 /* HPData.swift */,
 			);
-			path = MAIN;
+			path = HomePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
