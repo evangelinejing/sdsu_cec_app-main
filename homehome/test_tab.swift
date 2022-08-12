@@ -35,7 +35,7 @@ struct test_tab: View {
                 .foregroundColor(Color.black)}})
             
             
-        }
+        }.ignoresSafeArea()
         .accentColor(Color.black)
         
     }}
@@ -55,7 +55,7 @@ struct HomeView: View {
     //@EnvironmentObject var viewModel = AppViewModel()
     
     var body: some View{
-        HPListView()
+        HPListView().ignoresSafeArea()
       
         }
     }
