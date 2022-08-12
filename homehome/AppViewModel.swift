@@ -12,7 +12,7 @@ class AppViewModel: ObservableObject{
     
     @Published var falseLogin:Bool = false
     @Published var loginStarted:Bool = false
-    var helpvar: Bool = false
+    var adminTrue: Bool = false
     let auth = Auth.auth()
     @EnvironmentObject var fbase: ReadViewModel
     

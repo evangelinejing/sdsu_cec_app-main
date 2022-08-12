@@ -16,7 +16,7 @@ class ReadViewModel: ObservableObject{
     @Published
     var value: String? = nil
     
-    @Published var helpvar: Bool = false
+    @Published var adminTrue: Bool = false
     
     
     
@@ -59,9 +59,9 @@ class ReadViewModel: ObservableObject{
 
         self.ref.child("admin").observe(.value){ (snapshot) in
             if snapshot.hasChild(uid){
-                self.helpvar = true
+                self.adminTrue = true
             }else{
-                self.helpvar = false
+                self.adminTrue = false
             }
         }
     }

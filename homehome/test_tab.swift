@@ -170,7 +170,8 @@ struct AnalysisView: View {
                             .background()
                         .cornerRadius(10)})
                   //  Text(String(fbase.checkForAdmin()))
-                    if fbase.helpvar{
+                   
+                    if fbase.adminTrue{
                         Button (action: {
                             fbase.emergencyStop()
                         }, label:{
