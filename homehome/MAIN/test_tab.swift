@@ -86,7 +86,7 @@ struct AnalysisView: View {
                                 
                                 Text("SOC:")
                                 
-                                Text(viewModel.object!.soc)
+                                Text(String(viewModel.object!.soc))
                                     .padding()
                                     .font(.system(size: 25, weight: .bold))
                                 

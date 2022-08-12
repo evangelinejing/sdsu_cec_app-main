@@ -22,7 +22,7 @@ struct ReadView: View{
                     
                     Text("SOC:")
                         
-                    Text(viewModel.object!.soc)
+                    //Text(viewModel.object!.soc)
                             .padding()
                             .font(.system(size: 25, weight: .bold))
 

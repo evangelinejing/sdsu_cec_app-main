@@ -7,7 +7,7 @@
 
 import Foundation
 class ObjectDemo: Decodable{
-    var soc:String = ""
+    var soc:Int = 0
     var cell1:String = ""
     var cell2:String = ""
     var mode:String = ""
