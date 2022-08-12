@@ -11,10 +11,9 @@ import FirebaseDatabaseSwift
 import FirebaseAuth
 
 class ReadViewModel: ObservableObject{
-    @Published
-    var ref = Database.database().reference()
-    @Published
-    var value: String? = nil
+   
+    @Published var ref = Database.database().reference()
+    @Published var value: String? = nil
     
     @Published var adminTrue: Bool = false
     
