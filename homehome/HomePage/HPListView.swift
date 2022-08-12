@@ -34,8 +34,9 @@ struct HPListView: View {
                 })
                 .padding(/*@START_MENU_TOKEN@*/[.top, .bottom, .trailing], 1.0/*@END_MENU_TOKEN@*/)
                 
-            }.navigationBarHidden(true).navigationBarTitle("Data Histroy")
-                   
+            }.navigationBarHidden(true)
+                    .navigationTitle("Data History")
+                    
                     
                 
         
