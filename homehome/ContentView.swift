@@ -16,16 +16,16 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-        if viewModel.signedIn == true {
+            if viewModel.signedIn == true {
                 test_tab()
             } else{
                 login()
             }
-          
+            
         }.navigationBarHidden(true)
-        .onAppear{
-            viewModel.signedIn = viewModel.isSignedIn
-        }
+            .onAppear{
+                viewModel.signedIn = viewModel.isSignedIn
+            }
     }
 }
 
