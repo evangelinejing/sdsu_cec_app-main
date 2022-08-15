@@ -58,7 +58,7 @@ struct Profile: View {
                     .cornerRadius(10)}).offset(y:+100)
             }
             
-
+            
         }
     }
 }

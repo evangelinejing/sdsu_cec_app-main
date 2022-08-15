@@ -38,7 +38,7 @@ struct test_tab: View {
             
             
         }.ignoresSafeArea()
-        .accentColor(Color.black)
+            .accentColor(Color.black)
         
     }}
 
@@ -53,14 +53,14 @@ struct test_tab_Previews: PreviewProvider {
 }
 
 struct HomeView: View {
-
+    
     //@EnvironmentObject var viewModel = AppViewModel()
     
     var body: some View{
         HPListView().ignoresSafeArea()
-      
-        }
+        
     }
+}
 
 
 struct AnalysisView: View {
@@ -134,7 +134,7 @@ struct AnalysisView: View {
                             }
                             
                         }
-                                    
+                        
                     }
                 }.navigationBarTitleDisplayMode(.automatic)
                 
@@ -142,17 +142,17 @@ struct AnalysisView: View {
         }
     }
 }
+
+struct ProfileView: View {
     
-    struct ProfileView: View {
+    @EnvironmentObject var appView: AppViewModel
+    @EnvironmentObject var fbase: ReadViewModel
+    
+    var body: some View{
         
-        @EnvironmentObject var appView: AppViewModel
-        @EnvironmentObject var fbase: ReadViewModel
-        
-        var body: some View{
-            
-            Profile()
-            
-        }
+        Profile()
         
     }
     
+}
+
