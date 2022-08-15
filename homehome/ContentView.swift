@@ -22,7 +22,7 @@ struct ContentView: View {
                 login()
             }
           
-        }
+        }.navigationBarHidden(true)
         .onAppear{
             viewModel.signedIn = viewModel.isSignedIn
         }
