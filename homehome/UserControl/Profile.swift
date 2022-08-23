@@ -22,7 +22,7 @@ struct Profile: View {
                     StopButton()
                     StartButton()
                     
-                }.offset(y:+30)
+                }.onAppear(perform: fbase.checkForAdmin).offset(y:+30)
                 
                 Button (action: {
                     appView.signOut()

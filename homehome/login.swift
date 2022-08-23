@@ -32,6 +32,7 @@ struct login: View {
                         .foregroundColor(Color(hue: 0.9, saturation: 0.078, brightness: 0.959)).font(.system(size:40,weight:.bold,design:.rounded))
 
                     TextField ("Email", text : $email)
+                        .submitLabel(.route)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color(hue: 0.9, saturation: 0.078, brightness: 0.959))

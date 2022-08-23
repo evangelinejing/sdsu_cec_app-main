@@ -9,8 +9,12 @@ import SwiftUI
 
 struct StartButton: View {
     
+    @EnvironmentObject var appView: AppViewModel
+    @EnvironmentObject var fbase: ReadViewModel
+    
     @State private var ForSureStart = false
     var body: some View {
+        if fbase.adminTrue {
         Button (action: {
             ForSureStart = true
         }, label:{
@@ -25,11 +29,14 @@ struct StartButton: View {
         }).alert("Are you sure to start the system?", isPresented:$ForSureStart) {
             Button("START",role: .destructive) {print("System Stopped!")}
         }
+        }
     }
 }
 
 struct StartButton_Previews: PreviewProvider {
     static var previews: some View {
         StartButton()
+            .environmentObject(ReadViewModel())
+            .environmentObject(AppViewModel())
     }
 }
