@@ -30,6 +30,17 @@ struct login: View {
                 VStack {
                     Text ("Login")
                         .foregroundColor(Color(hue: 0.9, saturation: 0.078, brightness: 0.959)).font(.system(size:40,weight:.bold,design:.rounded))
+                    
+                    if viewModel.loginStarted{
+                        Text("waiting for server response...")
+                            .foregroundColor(.white)
+                    }
+                    if viewModel.falseLogin{
+                        Text("Login data incorrect.")
+                            .foregroundColor(.red)
+                            .padding()
+                            .font(.title)
+                    }
 
                     TextField ("Email", text : $email)
                         .submitLabel(.route)
@@ -61,16 +72,6 @@ struct login: View {
                             .cornerRadius(10)
                         
                     })
-                    if viewModel.loginStarted{
-                        Text("waiting for server response...")
-                            .foregroundColor(.white)
-                    }
-                    if viewModel.falseLogin{
-                        Text("Login data incorrect.")
-                            .foregroundColor(.red)
-                            .padding()
-                            .font(.title)
-                    }
                 }                
                 
                 //NavigationLink(destination: ui_1(), isActive: $showingLoginScreen){
