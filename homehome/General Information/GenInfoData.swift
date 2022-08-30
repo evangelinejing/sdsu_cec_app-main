@@ -8,8 +8,6 @@
 import SwiftUI
 import SwiftUICharts
 
-//
-
 struct GenInfoData: View {
     var body: some View {
         VStack{
