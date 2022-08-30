@@ -24,6 +24,8 @@
 		BB35B91D28B4716D00DB402F /* LiveDataBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35B91C28B4716D00DB402F /* LiveDataBack.swift */; };
 		BB42E15728AAC43700C1A604 /* UserBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB42E15628AAC43600C1A604 /* UserBack.swift */; };
 		BB472923286CA8B0002DBD83 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB472922286CA8B0002DBD83 /* login.swift */; };
+		BB5265D128B68BE3007AABD1 /* PackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5265D028B68BE2007AABD1 /* PackView.swift */; };
+		BB5265D528B691FD007AABD1 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5265D428B691FD007AABD1 /* DataView.swift */; };
 		BB55C09328A45D9F00647F5D /* UserControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB55C09228A45D9F00647F5D /* UserControl.swift */; };
 		BB5E2D0C28A366C2006908C6 /* HPData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D0B28A366C2006908C6 /* HPData.swift */; };
 		BB5E2D0E28A366D3006908C6 /* HPListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E2D0D28A366D3006908C6 /* HPListView.swift */; };
@@ -38,6 +40,9 @@
 		BB75D323284D7FDF00C83EB9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BB75D322284D7FDF00C83EB9 /* FirebaseAuth */; };
 		BB75D325284D7FDF00C83EB9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BB75D324284D7FDF00C83EB9 /* FirebaseFirestore */; };
 		BB75D327284D80CF00C83EB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB75D326284D80CE00C83EB9 /* GoogleService-Info.plist */; };
+		BB85BE1728BDC2B200E707D5 /* GenInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85BE1628BDC2B200E707D5 /* GenInfoView.swift */; };
+		BB85BE1928BDCD2900E707D5 /* GenInfoBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85BE1828BDCD2900E707D5 /* GenInfoBack.swift */; };
+		BB85BE1B28BDD05400E707D5 /* GenInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85BE1A28BDD05300E707D5 /* GenInfoData.swift */; };
 		BBAEE53528A1C13900DA388E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BBAEE53428A1C13900DA388E /* FirebaseAnalytics */; };
 		BBAEE53728A1C13900DA388E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = BBAEE53628A1C13900DA388E /* FirebaseAnalyticsOnDeviceConversion */; };
 		BBAEE53928A1C13900DA388E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BBAEE53828A1C13900DA388E /* FirebaseAnalyticsSwift */; };
@@ -80,6 +85,8 @@
 		BB35B91C28B4716D00DB402F /* LiveDataBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataBack.swift; sourceTree = "<group>"; };
 		BB42E15628AAC43600C1A604 /* UserBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBack.swift; sourceTree = "<group>"; };
 		BB472922286CA8B0002DBD83 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		BB5265D028B68BE2007AABD1 /* PackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackView.swift; sourceTree = "<group>"; };
+		BB5265D428B691FD007AABD1 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		BB55C09228A45D9F00647F5D /* UserControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserControl.swift; sourceTree = "<group>"; };
 		BB5E2D0B28A366C2006908C6 /* HPData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPData.swift; sourceTree = "<group>"; };
 		BB5E2D0D28A366D3006908C6 /* HPListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPListView.swift; sourceTree = "<group>"; };
@@ -93,6 +100,9 @@
 		BB75D317284D646C00C83EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB75D31A284D646C00C83EB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB75D326284D80CE00C83EB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB85BE1628BDC2B200E707D5 /* GenInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenInfoView.swift; sourceTree = "<group>"; };
+		BB85BE1828BDCD2900E707D5 /* GenInfoBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenInfoBack.swift; sourceTree = "<group>"; };
+		BB85BE1A28BDD05300E707D5 /* GenInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenInfoData.swift; sourceTree = "<group>"; };
 		BBAEE56A28A300A300DA388E /* HistoryDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataList.swift; sourceTree = "<group>"; };
 		BBF1190D2891BB7E009A1142 /* test_tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,7 +158,9 @@
 			isa = PBXGroup;
 			children = (
 				BB35B91A28B46E8100DB402F /* LiveDataView.swift */,
+				BB5265D428B691FD007AABD1 /* DataView.swift */,
 				BB35B91C28B4716D00DB402F /* LiveDataBack.swift */,
+				BB5265D028B68BE2007AABD1 /* PackView.swift */,
 			);
 			path = LiveData;
 			sourceTree = "<group>";
@@ -187,6 +199,7 @@
 				BBF1190D2891BB7E009A1142 /* test_tab.swift */,
 				BB35B91928B46E5200DB402F /* LiveData */,
 				BB55C09128A45D8800647F5D /* UserControl */,
+				BB85BE1528BDC27200E707D5 /* General Information */,
 				BBF1190C2891BB64009A1142 /* HomePage */,
 				BB75D313284D646A00C83EB9 /* homehomeApp.swift */,
 				512F58272893559E007EFF41 /* AppViewModel.swift */,
@@ -208,6 +221,16 @@
 				BB75D31A284D646C00C83EB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB85BE1528BDC27200E707D5 /* General Information */ = {
+			isa = PBXGroup;
+			children = (
+				BB85BE1628BDC2B200E707D5 /* GenInfoView.swift */,
+				BB85BE1828BDCD2900E707D5 /* GenInfoBack.swift */,
+				BB85BE1A28BDD05300E707D5 /* GenInfoData.swift */,
+			);
+			path = "General Information";
 			sourceTree = "<group>";
 		};
 		BBF1190C2891BB64009A1142 /* HomePage */ = {
@@ -340,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5265D528B691FD007AABD1 /* DataView.swift in Sources */,
 				BB55C09328A45D9F00647F5D /* UserControl.swift in Sources */,
 				BB27557028A5BCB400BEA605 /* HPBack.swift in Sources */,
 				BB35B91B28B46E8100DB402F /* LiveDataView.swift in Sources */,
@@ -349,8 +373,10 @@
 				BB35B91D28B4716D00DB402F /* LiveDataBack.swift in Sources */,
 				BB75D314284D646A00C83EB9 /* homehomeApp.swift in Sources */,
 				BB5E2D0C28A366C2006908C6 /* HPData.swift in Sources */,
+				BB85BE1B28BDD05400E707D5 /* GenInfoData.swift in Sources */,
 				BBF1190E2891BB7E009A1142 /* test_tab.swift in Sources */,
 				512F58282893559E007EFF41 /* AppViewModel.swift in Sources */,
+				BB5265D128B68BE3007AABD1 /* PackView.swift in Sources */,
 				512833132891D1D100939728 /* ReadView.swift in Sources */,
 				BBAEE56B28A300A400DA388E /* HistoryDataList.swift in Sources */,
 				BB5E2D1028A36B06006908C6 /* HPDetail.swift in Sources */,
@@ -359,7 +385,9 @@
 				512833152891D1D400939728 /* ReadViewModel.swift in Sources */,
 				BB42E15728AAC43700C1A604 /* UserBack.swift in Sources */,
 				BB5E2D0E28A366D3006908C6 /* HPListView.swift in Sources */,
+				BB85BE1728BDC2B200E707D5 /* GenInfoView.swift in Sources */,
 				BB6C194B28AC6BC900CA96D0 /* StopButton.swift in Sources */,
+				BB85BE1928BDCD2900E707D5 /* GenInfoBack.swift in Sources */,
 				BB6C194D28AC6C0F00CA96D0 /* StartButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
