@@ -29,7 +29,7 @@ struct test_tab: View {
                     Text("Analysis")
                         .foregroundColor(Color.black)
                         .lineLimit(nil)
-                    .frame(width: /*@START_MENU_TOKEN@*/64.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/14.0/*@END_MENU_TOKEN@*/)}}
+                    .frame(width: 64.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/14.0)}}
             )
             
             ProfileView().tabItem({VStack{Image(systemName:"person.crop.circle").resizable().aspectRatio(contentMode: .fit).foregroundColor(Color.black).ignoresSafeArea()
@@ -49,6 +49,7 @@ struct test_tab_Previews: PreviewProvider {
         test_tab()
             .environmentObject(ReadViewModel())
             .environmentObject(AppViewModel())
+            .previewInterfaceOrientation(.portrait)
     }
 }
 
