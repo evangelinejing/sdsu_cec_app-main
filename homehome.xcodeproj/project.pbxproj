@@ -19,6 +19,8 @@
 		BB15FAFC2875EF7200577C08 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BB15FAFB2875EF7200577C08 /* SwiftUICharts */; };
 		BB27557028A5BCB400BEA605 /* HPBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27556F28A5BCB400BEA605 /* HPBack.swift */; };
 		BB27557428A5D82700BEA605 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27557328A5D82700BEA605 /* Profile.swift */; };
+		BB2DC91F28C01E79004F449F /* GenInfoCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2DC91E28C01E79004F449F /* GenInfoCharts.swift */; };
+		BB2DC92228C02005004F449F /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BB2DC92128C02005004F449F /* SwiftUICharts */; };
 		BB35B91B28B46E8100DB402F /* LiveDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35B91A28B46E8100DB402F /* LiveDataView.swift */; };
 		BB35B91D28B4716D00DB402F /* LiveDataBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB35B91C28B4716D00DB402F /* LiveDataBack.swift */; };
 		BB42E15728AAC43700C1A604 /* UserBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB42E15628AAC43600C1A604 /* UserBack.swift */; };
@@ -57,6 +59,8 @@
 		512F58272893559E007EFF41 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		BB27556F28A5BCB400BEA605 /* HPBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPBack.swift; sourceTree = "<group>"; };
 		BB27557328A5D82700BEA605 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BB2DC91E28C01E79004F449F /* GenInfoCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenInfoCharts.swift; sourceTree = "<group>"; };
+		BB2DC92628C02734004F449F /* ChartView-2.0.0-beta.2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ChartView-2.0.0-beta.2"; path = "../ChartView-2.0.0-beta.2"; sourceTree = "<group>"; };
 		BB35B91A28B46E8100DB402F /* LiveDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataView.swift; sourceTree = "<group>"; };
 		BB35B91C28B4716D00DB402F /* LiveDataBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDataBack.swift; sourceTree = "<group>"; };
 		BB42E15628AAC43600C1A604 /* UserBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBack.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 			files = (
 				BBAEE53528A1C13900DA388E /* FirebaseAnalytics in Frameworks */,
 				51F59EFE2891C81C00037D0B /* FirebaseDatabaseSwift in Frameworks */,
+				BB2DC92228C02005004F449F /* SwiftUICharts in Frameworks */,
 				51B34A8B28A30C4E0044DACF /* FirebaseDatabase in Frameworks */,
 				51F59EFC2891C81C00037D0B /* FirebaseDatabase in Frameworks */,
 				51B34A8D28A30C4E0044DACF /* FirebaseDatabaseSwift in Frameworks */,
@@ -106,6 +111,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB2DC92528C02734004F449F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BB2DC92628C02734004F449F /* ChartView-2.0.0-beta.2 */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		BB35B91928B46E5200DB402F /* LiveData */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +145,7 @@
 		BB75D307284D646A00C83EB9 = {
 			isa = PBXGroup;
 			children = (
+				BB2DC92528C02734004F449F /* Packages */,
 				BB75D312284D646A00C83EB9 /* homehome */,
 				BB75D311284D646A00C83EB9 /* Products */,
 			);
@@ -181,6 +195,7 @@
 				BB85BE1628BDC2B200E707D5 /* GenInfoView.swift */,
 				BB85BE1828BDCD2900E707D5 /* GenInfoBack.swift */,
 				BB85BE1A28BDD05300E707D5 /* GenInfoData.swift */,
+				BB2DC91E28C01E79004F449F /* GenInfoCharts.swift */,
 			);
 			path = "General Information";
 			sourceTree = "<group>";
@@ -227,6 +242,7 @@
 				51B34A8828A30C4E0044DACF /* FirebaseAuth */,
 				51B34A8A28A30C4E0044DACF /* FirebaseDatabase */,
 				51B34A8C28A30C4E0044DACF /* FirebaseDatabaseSwift */,
+				BB2DC92128C02005004F449F /* SwiftUICharts */,
 			);
 			productName = homehome;
 			productReference = BB75D310284D646A00C83EB9 /* homehome.app */;
@@ -263,6 +279,7 @@
 				51F59EFA2891C81C00037D0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				BBAEE53328A1C13900DA388E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				51B34A8728A30C4D0044DACF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BB2DC92028C02005004F449F /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = BB75D311284D646A00C83EB9 /* Products */;
 			projectDirPath = "";
@@ -296,6 +313,7 @@
 				BB27557028A5BCB400BEA605 /* HPBack.swift in Sources */,
 				BB35B91B28B46E8100DB402F /* LiveDataView.swift in Sources */,
 				BB5E2D1228A37046006908C6 /* test_oure.swift in Sources */,
+				BB2DC91F28C01E79004F449F /* GenInfoCharts.swift in Sources */,
 				512833112891D1C400939728 /* ObjectDemo.swift in Sources */,
 				BB75D316284D646A00C83EB9 /* ContentView.swift in Sources */,
 				BB35B91D28B4716D00DB402F /* LiveDataBack.swift in Sources */,
@@ -454,7 +472,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = light;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,7 +505,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = light;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -559,6 +577,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		BB2DC92028C02005004F449F /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.5;
+			};
+		};
 		BB75D321284D7FDF00C83EB9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -606,6 +632,11 @@
 		BB15FAFB2875EF7200577C08 /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BB15FAF42875EBE700577C08 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		BB2DC92128C02005004F449F /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB2DC92028C02005004F449F /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
 		};
 		BB75D322284D7FDF00C83EB9 /* FirebaseAuth */ = {

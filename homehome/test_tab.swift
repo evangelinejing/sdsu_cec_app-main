@@ -69,78 +69,7 @@ struct AnalysisView: View {
     var viewModel = ReadViewModel()
     
     var body: some View{
-        NavigationView {
-            
-            
-            ZStack{
-                Image("back").resizable().ignoresSafeArea()
-                ScrollView{
-                    VStack{
-                        
-                        Text("Current State:")
-                            .padding()
-                            .font(.system(size: 40, weight: .bold))
-                        
-                        Spacer()
-                        
-                        if viewModel.object != nil{
-                            VStack{
-                                
-                                
-                                Text("SOC:")
-                                
-                                Text(String(viewModel.object!.soc))
-                                    .padding()
-                                    .font(.system(size: 25, weight: .bold))
-                                
-                                
-                                Text("Cell1 Voltage:")
-                                Text(viewModel.object!.cell1)
-                                    .padding()
-                                    .font(.system(size: 25, weight: .bold))
-                                
-                                
-                                Text("Cell2 Voltage:")
-                                Text(viewModel.object!.cell2)
-                                    .padding()
-                                    .font(.system(size: 25, weight: .bold))
-                                
-                                Text("mode:")
-                                Text(viewModel.object!.mode)
-                                    .padding()
-                                    .font(.system(size: 25, weight: .bold))
-                                    .frame(width:300, height: 50)
-                                    .background()
-                                    .cornerRadius(10)
-                                
-                            }
-                        } else {
-                            
-                            Text("Server connection failed")
-                                .padding()
-                                .font(.system(size: 20, weight: .bold))
-                                .onAppear(){
-                                    self.viewModel.readObject()
-                                }
-                            Button{
-                                viewModel.readObject()
-                            } label: {
-                                Text("Try again")
-                                    .foregroundColor(.white)
-                                    .padding()
-                                    .background(
-                                        Color.black
-                                    )
-                                
-                            }
-                            
-                        }
-                        
-                    }
-                }.navigationBarTitleDisplayMode(.automatic)
-                
-            }
-        }
+        DataView().ignoresSafeArea()
     }
 }
 
@@ -151,7 +80,7 @@ struct ProfileView: View {
     
     var body: some View{
         
-        Profile()
+        Profile().ignoresSafeArea()
         
     }
     

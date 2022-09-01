@@ -11,7 +11,7 @@ struct GenInfoView: View {
     var body: some View {
         ZStack{
             GenInfoBack()
-            
+            GenInfoData()
         }
     }
 }
