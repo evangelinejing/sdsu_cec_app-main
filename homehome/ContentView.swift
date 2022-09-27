@@ -18,6 +18,7 @@ struct ContentView: View {
         NavigationView{
             if viewModel.signedIn == true {
                 test_tab()
+                //LiveDataView()
             } else{
                 login()
             }

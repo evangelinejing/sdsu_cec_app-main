@@ -16,17 +16,17 @@ struct test_tab: View {
     
     var body: some View {
         TabView{
-            HomeView().tabItem({VStack{Image (systemName:"homekit").aspectRatio(contentMode: .fit).foregroundColor(Color.black).ignoresSafeArea()
+           /* HomeView().tabItem({VStack{Image (systemName:"homekit").aspectRatio(contentMode: .fit).foregroundColor(Color.black).ignoresSafeArea()
                 Text("Home")
                 .foregroundColor(Color.black)}
             }
-            )
+            )*/
             
             AnalysisView().tabItem(
                 {VStack{
                     Image(systemName:"chart.xyaxis.line").resizable().aspectRatio(contentMode: .fit).foregroundColor(Color.black).ignoresSafeArea()
                     
-                    Text("Analysis")
+                    Text("Live Data")
                         .foregroundColor(Color.black)
                         .lineLimit(nil)
                     .frame(width: 64.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/14.0)}}

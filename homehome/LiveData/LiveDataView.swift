@@ -32,29 +32,12 @@ struct LiveDataView: View {
                                 
                                 Text("SOC:")
                                 
-                                Text(String(viewModel.object!.soc))
-                                    .padding()
-                                    .font(.system(size: 25, weight: .bold))
+                               //Text(String(viewModel.object!.P00_kwh))
+                                 //.padding()
+                                   //.font(.system(size: 25, weight: .bold))
                                 
-                                
-                                Text("Cell1 Voltage:")
-                                Text(viewModel.object!.cell1)
-                                    .padding()
-                                    .font(.system(size: 25, weight: .bold))
-                                
-                                
-                                Text("Cell2 Voltage:")
-                                Text(viewModel.object!.cell2)
-                                    .padding()
-                                    .font(.system(size: 25, weight: .bold))
-                                
-                                Text("mode:")
-                                Text(viewModel.object!.mode)
-                                    .padding()
-                                    .font(.system(size: 25, weight: .bold))
-                                    .frame(width:300, height: 50)
-                                    .background()
-                                    .cornerRadius(10)
+                              
+
                                 
                             }
                         } else {
@@ -91,3 +74,4 @@ struct LiveDataView_Previews: PreviewProvider {
         LiveDataView()
     }
 }
+

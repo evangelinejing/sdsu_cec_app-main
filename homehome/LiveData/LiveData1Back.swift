@@ -2,12 +2,12 @@
 //  UserBack.swift
 //  homehome
 //
-//  Created by Evangeline Jing on 8/15/22.
+//  Created by Lars Fischer
 //
 
 import SwiftUI
 
-struct UserBack: View {
+struct LiveData1Back: View {
     var body: some View {
         ZStack{
             Image("back").resizable().ignoresSafeArea()
@@ -19,7 +19,7 @@ struct UserBack: View {
                     Circle()
                         .scale(1.65)
                         .foregroundColor(.black.opacity(0.09)).offset(y: -320).ignoresSafeArea()
-                    Text("Control Center").font(.title).accentColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/).dynamicTypeSize(/*@START_MENU_TOKEN@*/.xxxLarge/*@END_MENU_TOKEN@*/).foregroundColor(Color(hue: 0.9, saturation: 0.178, brightness: 0.959)).offset(y:-100).ignoresSafeArea()
+                    Text("Live Data").font(.title).accentColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/).dynamicTypeSize(/*@START_MENU_TOKEN@*/.xxxLarge/*@END_MENU_TOKEN@*/).foregroundColor(Color(hue: 0.9, saturation: 0.178, brightness: 0.959)).offset(y:-100).ignoresSafeArea()
                 }
                 
                 Spacer(minLength:90)
@@ -39,8 +39,9 @@ struct UserBack: View {
     }
 }
 
-struct UserBack_Previews: PreviewProvider {
+struct LiveData1Back_Previews: PreviewProvider {
     static var previews: some View {
-        UserBack()
+        LiveData1Back()
     }
 }
+

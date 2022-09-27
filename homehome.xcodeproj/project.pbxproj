@@ -11,9 +11,11 @@
 		512833132891D1D100939728 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512833122891D1D100939728 /* ReadView.swift */; };
 		512833152891D1D400939728 /* ReadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512833142891D1D400939728 /* ReadViewModel.swift */; };
 		512F58282893559E007EFF41 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F58272893559E007EFF41 /* AppViewModel.swift */; };
+		513DA7A928D03EAC008C35AD /* PackViewLars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DA7A828D03EAC008C35AD /* PackViewLars.swift */; };
 		51B34A8928A30C4E0044DACF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 51B34A8828A30C4E0044DACF /* FirebaseAuth */; };
 		51B34A8B28A30C4E0044DACF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 51B34A8A28A30C4E0044DACF /* FirebaseDatabase */; };
 		51B34A8D28A30C4E0044DACF /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 51B34A8C28A30C4E0044DACF /* FirebaseDatabaseSwift */; };
+		51B9768D28DA2B9300076053 /* LiveData1Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9768C28DA2B9300076053 /* LiveData1Back.swift */; };
 		51F59EFC2891C81C00037D0B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 51F59EFB2891C81C00037D0B /* FirebaseDatabase */; };
 		51F59EFE2891C81C00037D0B /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 51F59EFD2891C81C00037D0B /* FirebaseDatabaseSwift */; };
 		BB15FAFC2875EF7200577C08 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BB15FAFB2875EF7200577C08 /* SwiftUICharts */; };
@@ -39,12 +41,10 @@
 		BB75D318284D646C00C83EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB75D317284D646C00C83EB9 /* Assets.xcassets */; };
 		BB75D31B284D646C00C83EB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB75D31A284D646C00C83EB9 /* Preview Assets.xcassets */; };
 		BB75D323284D7FDF00C83EB9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BB75D322284D7FDF00C83EB9 /* FirebaseAuth */; };
-		BB75D325284D7FDF00C83EB9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BB75D324284D7FDF00C83EB9 /* FirebaseFirestore */; };
 		BB75D327284D80CF00C83EB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB75D326284D80CE00C83EB9 /* GoogleService-Info.plist */; };
 		BB85BE1728BDC2B200E707D5 /* GenInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85BE1628BDC2B200E707D5 /* GenInfoView.swift */; };
 		BB85BE1928BDCD2900E707D5 /* GenInfoBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85BE1828BDCD2900E707D5 /* GenInfoBack.swift */; };
 		BB85BE1B28BDD05400E707D5 /* GenInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB85BE1A28BDD05300E707D5 /* GenInfoData.swift */; };
-		BBAEE53528A1C13900DA388E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BBAEE53428A1C13900DA388E /* FirebaseAnalytics */; };
 		BBAEE54128A1C13900DA388E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BBAEE54028A1C13900DA388E /* FirebaseAuth */; };
 		BBAEE54728A1C13900DA388E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BBAEE54628A1C13900DA388E /* FirebaseDatabase */; };
 		BBAEE54928A1C13900DA388E /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BBAEE54828A1C13900DA388E /* FirebaseDatabaseSwift */; };
@@ -57,6 +57,8 @@
 		512833122891D1D100939728 /* ReadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadView.swift; sourceTree = "<group>"; };
 		512833142891D1D400939728 /* ReadViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewModel.swift; sourceTree = "<group>"; };
 		512F58272893559E007EFF41 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		513DA7A828D03EAC008C35AD /* PackViewLars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackViewLars.swift; sourceTree = "<group>"; };
+		51B9768C28DA2B9300076053 /* LiveData1Back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveData1Back.swift; sourceTree = "<group>"; };
 		BB27556F28A5BCB400BEA605 /* HPBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPBack.swift; sourceTree = "<group>"; };
 		BB27557328A5D82700BEA605 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		BB2DC91E28C01E79004F449F /* GenInfoCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenInfoCharts.swift; sourceTree = "<group>"; };
@@ -74,7 +76,7 @@
 		BB5E2D1128A37046006908C6 /* test_oure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_oure.swift; sourceTree = "<group>"; };
 		BB6C194A28AC6BC900CA96D0 /* StopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopButton.swift; sourceTree = "<group>"; };
 		BB6C194C28AC6C0F00CA96D0 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
-		BB75D310284D646A00C83EB9 /* homehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB75D310284D646A00C83EB9 /* CEC App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CEC App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB75D313284D646A00C83EB9 /* homehomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homehomeApp.swift; sourceTree = "<group>"; };
 		BB75D315284D646A00C83EB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB75D317284D646C00C83EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAEE53528A1C13900DA388E /* FirebaseAnalytics in Frameworks */,
 				51F59EFE2891C81C00037D0B /* FirebaseDatabaseSwift in Frameworks */,
 				BB2DC92228C02005004F449F /* SwiftUICharts in Frameworks */,
 				51B34A8B28A30C4E0044DACF /* FirebaseDatabase in Frameworks */,
@@ -102,7 +103,6 @@
 				BB15FAFC2875EF7200577C08 /* SwiftUICharts in Frameworks */,
 				BB75D323284D7FDF00C83EB9 /* FirebaseAuth in Frameworks */,
 				51B34A8928A30C4E0044DACF /* FirebaseAuth in Frameworks */,
-				BB75D325284D7FDF00C83EB9 /* FirebaseFirestore in Frameworks */,
 				BBAEE54128A1C13900DA388E /* FirebaseAuth in Frameworks */,
 				BBAEE54928A1C13900DA388E /* FirebaseDatabaseSwift in Frameworks */,
 			);
@@ -124,6 +124,8 @@
 			children = (
 				BB35B91A28B46E8100DB402F /* LiveDataView.swift */,
 				BB5265D428B691FD007AABD1 /* DataView.swift */,
+				51B9768C28DA2B9300076053 /* LiveData1Back.swift */,
+				513DA7A828D03EAC008C35AD /* PackViewLars.swift */,
 				BB35B91C28B4716D00DB402F /* LiveDataBack.swift */,
 				BB5265D028B68BE2007AABD1 /* PackView.swift */,
 			);
@@ -154,7 +156,7 @@
 		BB75D311284D646A00C83EB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB75D310284D646A00C83EB9 /* homehome.app */,
+				BB75D310284D646A00C83EB9 /* CEC App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,11 +233,9 @@
 			name = homehome;
 			packageProductDependencies = (
 				BB75D322284D7FDF00C83EB9 /* FirebaseAuth */,
-				BB75D324284D7FDF00C83EB9 /* FirebaseFirestore */,
 				BB15FAFB2875EF7200577C08 /* SwiftUICharts */,
 				51F59EFB2891C81C00037D0B /* FirebaseDatabase */,
 				51F59EFD2891C81C00037D0B /* FirebaseDatabaseSwift */,
-				BBAEE53428A1C13900DA388E /* FirebaseAnalytics */,
 				BBAEE54028A1C13900DA388E /* FirebaseAuth */,
 				BBAEE54628A1C13900DA388E /* FirebaseDatabase */,
 				BBAEE54828A1C13900DA388E /* FirebaseDatabaseSwift */,
@@ -245,7 +245,7 @@
 				BB2DC92128C02005004F449F /* SwiftUICharts */,
 			);
 			productName = homehome;
-			productReference = BB75D310284D646A00C83EB9 /* homehome.app */;
+			productReference = BB75D310284D646A00C83EB9 /* CEC App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -333,6 +333,8 @@
 				BB5E2D0E28A366D3006908C6 /* HPListView.swift in Sources */,
 				BB85BE1728BDC2B200E707D5 /* GenInfoView.swift in Sources */,
 				BB6C194B28AC6BC900CA96D0 /* StopButton.swift in Sources */,
+				51B9768D28DA2B9300076053 /* LiveData1Back.swift in Sources */,
+				513DA7A928D03EAC008C35AD /* PackViewLars.swift in Sources */,
 				BB85BE1928BDCD2900E707D5 /* GenInfoBack.swift in Sources */,
 				BB6C194D28AC6C0F00CA96D0 /* StartButton.swift in Sources */,
 			);
@@ -464,6 +466,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"homehome/Preview Content\"";
 				DEVELOPMENT_TEAM = D6NUZ5BKPZ;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -480,7 +483,7 @@
 				MARKETING_VERSION = 1.0;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = sdsu.homehome;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CEC App";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -497,6 +500,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"homehome/Preview Content\"";
 				DEVELOPMENT_TEAM = D6NUZ5BKPZ;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -513,7 +517,7 @@
 				MARKETING_VERSION = 1.0;
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = sdsu.homehome;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CEC App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -643,16 +647,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BB75D321284D7FDF00C83EB9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
-		};
-		BB75D324284D7FDF00C83EB9 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BB75D321284D7FDF00C83EB9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		BBAEE53428A1C13900DA388E /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BBAEE53328A1C13900DA388E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
 		};
 		BBAEE54028A1C13900DA388E /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;

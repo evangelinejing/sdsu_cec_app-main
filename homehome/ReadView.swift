@@ -26,7 +26,7 @@ struct ReadView: View{
                             .padding()
                             .font(.system(size: 25, weight: .bold))
 
-                            
+                    /*
                     Text("Cell1 Voltage:")
                     Text(viewModel.object!.cell1)
                             .padding()
@@ -42,7 +42,7 @@ struct ReadView: View{
                     Text(viewModel.object!.mode)
                             .padding()
                             .font(.system(size: 25, weight: .bold))
-                    
+                    */
                 }
             } else {
                 

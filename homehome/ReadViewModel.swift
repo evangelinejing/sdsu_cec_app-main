@@ -35,7 +35,7 @@ class ReadViewModel: ObservableObject{
     }
     
     func readObject(){
-        ref.child("Object")
+        ref.child("liveData")
             .observe(.value) { snapshot in
                 do{
                     self.object = try snapshot.data(as: ObjectDemo.self)

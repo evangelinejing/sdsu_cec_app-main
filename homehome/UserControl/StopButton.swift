@@ -35,7 +35,7 @@ struct StopButton: View {
                         RoundedRectangle (cornerRadius:10, style:.continuous).fill (.linearGradient (colors:[.red.opacity(0.5)], startPoint: .top, endPoint: .bottomTrailing)))
                 
             }).alert("Are you sure to perform Emergent STOP?", isPresented:$ForSureStop) {
-                Button("STOP", action: fbase.emergencyStop)
+                Button("STOP", role: .destructive ,action: fbase.emergencyStop)
                 
             }
         }
