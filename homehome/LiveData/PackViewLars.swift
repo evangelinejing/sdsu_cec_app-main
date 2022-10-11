@@ -34,7 +34,6 @@ struct PackViewLars: View {
                             Text("Step")
                             Text("dT")
                             Text("dV")
-                            Text("Error")
                         }
                     }.padding()
                         .background(.black.opacity(0.9))
@@ -60,11 +59,10 @@ struct PackViewLars: View {
                                 Group{
                                     Text("\(viewModel.object!.P00_T_min, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P00_T_max, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P00_state, specifier: "%.2f")")
+                                    Text("\(viewModel.object!.P00_Errstate, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P00_step, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P00_dT, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P00_dv, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P00_Err, specifier: "%.2f")")
                                 }
                             }.padding()
                             VStack {
@@ -82,11 +80,10 @@ struct PackViewLars: View {
                                 Group{
                                     Text("\(viewModel.object!.P01_T_min, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P01_T_max, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P01_state, specifier: "%.2f")")
+                                    Text("\(viewModel.object!.P01_Errstate, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P01_step, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P01_dT, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P01_dv, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P01_Err, specifier: "%.2f")")
                                 }
                             }.padding()
                             VStack {
@@ -104,11 +101,10 @@ struct PackViewLars: View {
                                 Group{
                                     Text("\(viewModel.object!.P02_T_min, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P02_T_max, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P02_state, specifier: "%.2f")")
+                                    Text("\(viewModel.object!.P02_Errstate, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P02_step, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P02_dT, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P02_dv, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P02_Err, specifier: "%.2f")")
                                 }
                             }.padding()
                             VStack {
@@ -126,11 +122,10 @@ struct PackViewLars: View {
                                 Group{
                                     Text("\(viewModel.object!.P03_T_min, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P03_T_max, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P03_state, specifier: "%.2f")")
+                                    Text("\(viewModel.object!.P03_Errstate, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P03_step, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P03_dT, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P03_dv, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P03_Err, specifier: "%.2f")")
                                 }
                             }.padding()
                             VStack {
@@ -148,11 +143,10 @@ struct PackViewLars: View {
                                 Group{
                                     Text("\(viewModel.object!.P04_T_min, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P04_T_max, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P04_state, specifier: "%.2f")")
+                                    Text("\(viewModel.object!.P04_Errstate, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P04_step, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P04_dT, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P04_dv, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P04_Err, specifier: "%.2f")")
                                 }
                             }.padding()
                             VStack {
@@ -170,11 +164,10 @@ struct PackViewLars: View {
                                 Group{
                                     Text("\(viewModel.object!.P05_T_min, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P05_T_max, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P05_state, specifier: "%.2f")")
+                                    Text("\(viewModel.object!.P05_Errstate, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P05_step, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P05_dT, specifier: "%.2f")")
                                     Text("\(viewModel.object!.P05_dv, specifier: "%.2f")")
-                                    Text("\(viewModel.object!.P05_Err, specifier: "%.2f")")
                                 }
                             }.padding()
                         }

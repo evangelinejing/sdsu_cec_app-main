@@ -7,7 +7,6 @@
 
 import Foundation
 class ObjectDemo: Decodable{
-    var P00_Err:Double = 0
     var P00_T_max:Double = 0
     var P00_T_min:Double = 0
     var P00_curr:Double = 0
@@ -16,13 +15,12 @@ class ObjectDemo: Decodable{
     var P00_kwh:Double = 0
     var P00_pow:Double = 0
     var P00_soc:Double = 0
-    var P00_state:Double = 0
+    var P00_Errstate:Double = 0
     var P00_step:Double = 0
     var P00_v_max:Double = 0
     var P00_v_min:Double = 0
     var P00_vol:Double = 0
     
-    var P01_Err:Double = 0
     var P01_T_max:Double = 0
     var P01_T_min:Double = 0
     var P01_curr:Double = 0
@@ -31,13 +29,12 @@ class ObjectDemo: Decodable{
     var P01_kwh:Double = 0
     var P01_pow:Double = 0
     var P01_soc:Double = 0
-    var P01_state:Double = 0
+    var P01_Errstate:Double = 0
     var P01_step:Double = 0
     var P01_v_max:Double = 0
     var P01_v_min:Double = 0
     var P01_vol:Double = 0
     
-    var P02_Err:Double = 0
     var P02_T_max:Double = 0
     var P02_T_min:Double = 0
     var P02_curr:Double = 0
@@ -46,13 +43,12 @@ class ObjectDemo: Decodable{
     var P02_kwh:Double = 0
     var P02_pow:Double = 0
     var P02_soc:Double = 0
-    var P02_state:Double = 0
+    var P02_Errstate:Double = 0
     var P02_step:Double = 0
     var P02_v_max:Double = 0
     var P02_v_min:Double = 0
     var P02_vol:Double = 0
     
-    var P03_Err:Double = 0
     var P03_T_max:Double = 0
     var P03_T_min:Double = 0
     var P03_curr:Double = 0
@@ -61,13 +57,12 @@ class ObjectDemo: Decodable{
     var P03_kwh:Double = 0
     var P03_pow:Double = 0
     var P03_soc:Double = 0
-    var P03_state:Double = 0
+    var P03_Errstate:Double = 0
     var P03_step:Double = 0
     var P03_v_max:Double = 0
     var P03_v_min:Double = 0
     var P03_vol:Double = 0
     
-    var P04_Err:Double = 0
     var P04_T_max:Double = 0
     var P04_T_min:Double = 0
     var P04_curr:Double = 0
@@ -76,13 +71,12 @@ class ObjectDemo: Decodable{
     var P04_kwh:Double = 0
     var P04_pow:Double = 0
     var P04_soc:Double = 0
-    var P04_state:Double = 0
+    var P04_Errstate:Double = 0
     var P04_step:Double = 0
     var P04_v_max:Double = 0
     var P04_v_min:Double = 0
     var P04_vol:Double = 0
     
-    var P05_Err:Double = 0
     var P05_T_max:Double = 0
     var P05_T_min:Double = 0
     var P05_curr:Double = 0
@@ -91,7 +85,7 @@ class ObjectDemo: Decodable{
     var P05_kwh:Double = 0
     var P05_pow:Double = 0
     var P05_soc:Double = 0
-    var P05_state:Double = 0
+    var P05_Errstate:Double = 0
     var P05_step:Double = 0
     var P05_v_max:Double = 0
     var P05_v_min:Double = 0
