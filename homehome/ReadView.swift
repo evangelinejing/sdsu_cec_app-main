@@ -50,10 +50,10 @@ struct ReadView: View{
                         .padding()
                         .font(.system(size: 20, weight: .bold))
                         .onAppear(){
-                            self.viewModel.readObject()
+                            self.viewModel.readLiveData()
                         }
                 Button{
-                    viewModel.readObject()
+                    viewModel.readLiveData()
                 } label: {
                     Text("Try again")
                         .foregroundColor(.white)
@@ -64,7 +64,7 @@ struct ReadView: View{
                 }
             }
             /*Button{
-                viewModel.readObject()
+                viewModel.readLiveData()
             } label: {
                 Text("Read")
                     .foregroundColor(.white)

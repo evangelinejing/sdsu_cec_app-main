@@ -16,11 +16,11 @@ struct test_tab: View {
     
     var body: some View {
         TabView{
-           /* HomeView().tabItem({VStack{Image (systemName:"homekit").aspectRatio(contentMode: .fit).foregroundColor(Color.black).ignoresSafeArea()
-                Text("Home")
+            HomeView().tabItem({VStack{Image (systemName:"homekit").aspectRatio(contentMode: .fit).foregroundColor(Color.black).ignoresSafeArea()
+                Text("Analysis")
                 .foregroundColor(Color.black)}
             }
-            )*/
+            )
             
             AnalysisView().tabItem(
                 {VStack{

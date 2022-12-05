@@ -68,8 +68,5 @@ class AppViewModel: ObservableObject{
         self.signedIn = false
         self.falseLogin = false
     }
-
-    
-
 }
 

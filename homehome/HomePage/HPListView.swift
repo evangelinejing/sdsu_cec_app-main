@@ -6,24 +6,37 @@
 //
 
 import SwiftUI
+import Charts
 
 struct HPListView: View {
     @State var buttonTitle = "Historical Data"
-    init() {
-        UITableView.appearance().backgroundColor = .clear
-        }
+    @StateObject var viewModel = ReadViewModel()
+    @State var selection = 1
+    /*init() {
+        UINavigationBar.appearance().backgroundColor = .clear
+    }*/
     
     var datas: [HPData] = HDList.HD
-   
+    
     var body: some View {
-       
-            
-        NavigationView{
-            ZStack{
-                HPBack().ignoresSafeArea()
-                
-                
-                List(datas, id: \.id){ data in
+        
+        ZStack(){
+            HPBack()
+            VStack{
+                    Picker(selection: $selection, label: Text("choose timescale")) {
+                    Text("Today").tag(1)
+                    Text("Last Week").tag(2)
+                    Text("Last Month").tag(3)
+                    Text("Last Year").tag(4)
+                    }.pickerStyle(.segmented)
+                    .font(.title)
+                Today1View()
+
+            }            .background(Color.white.opacity(0.7))
+                .cornerRadius(10)
+
+            //NavigationView{
+                /*List(datas, id: \.id){ data in
                     NavigationLink(destination: HPDetail(data:data),label:{
                         HStack{
                             Text(data.title).font(.title).foregroundColor(Color(.black).opacity(0.7)).dynamicTypeSize(.xLarge).menuStyle(/*@PLACEHOLDER=Menu Style@*/DefaultMenuStyle())
@@ -35,15 +48,10 @@ struct HPListView: View {
                     .padding([.top, .bottom, .trailing], 1.0)
                     
                 }.navigationBarHidden(true)
-                    .navigationTitle("Data History")
-                
-                
-                
-                
-            }
-            
+                    .navigationTitle("Data History")*/
+            //}
         }
-        
+        .onAppear(perform: viewModel.readTodayData)
     }
     
 }

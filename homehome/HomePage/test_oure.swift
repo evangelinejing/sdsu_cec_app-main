@@ -40,13 +40,13 @@ struct test_oure: View {
                 VStack(spacing:20){
                     // Button(action: viewModel.signOut(), label: Text("sign out"))
 
-              
+                    Spacer()
             
                     Button(action:{
                         
                     }, label:{
                     title: do {
-                        Text("Right Now")
+                        Text("Today")
                     }
                     icon: do { Image(systemName: "leaf")
                     }}).font(.title).foregroundColor(Color(hue: 0.9, saturation: 0.078, brightness: 0.959)).dynamicTypeSize(.xLarge).menuStyle(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=Menu Style@*/DefaultMenuStyle()/*@END_MENU_TOKEN@*/).frame(width :2000, height :80).background(

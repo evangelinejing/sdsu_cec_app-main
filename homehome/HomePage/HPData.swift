@@ -17,7 +17,7 @@ struct HDList{
     
     static let HD = [
     HPData(imageName: "leaf",
-           title: "Last 14 Days"),
+           title: "Today"),
     HPData(imageName: "leaf.fill",
            title: "Last 30 Days"),
     HPData(imageName: "leaf.circle",
